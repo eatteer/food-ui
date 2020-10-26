@@ -1,0 +1,104 @@
+/* https://dribbble.com/shots/14441287--Exploration-Food-Website */
+
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  max-width: 1000px;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #bbb;
+  margin: 16px 0px;
+}
+
+.overview {
+  text-align: center;
+  margin: 16px;
+}
+
+.overview h1 {
+  font-family: "Playfair Display", serif;
+  margin-top: 0px;
+}
+
+.overview h4 {
+  color: #7c8081;
+}
+
+.food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  margin: 16px 0px;
+  padding: 32px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.gray {
+  color: #a8a8aa;
+}
+
+.card > h3 {
+  text-align: center;
+  height: 50px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.info > div > h5 {
+  color: #7c8081;
+  margin: 0px;
+}
+
+.info > div > h4 {
+  margin: 0px;
+}
+
+.info > div:nth-child(2) {
+  text-align: right;
+}
+
+.card > h4 {
+  color: #7c8081;
+  margin: 0px;
+}
+
+/* CARD */
+
+@media (min-width: 425px) {
+  .overview h1 {
+    font-size: 64px;
+  }
+
+  .card {
+    margin: 16px;
+  }
+}
